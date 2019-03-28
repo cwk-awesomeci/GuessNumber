@@ -37,22 +37,26 @@ namespace GuessNumber
                 else if (choice == 1)
                 {
                     handler = new OptionOneWang();
+                    
                 }
                 else if (choice == 2)
                 {
-                    handler = new OptionTwoCheng();
+                   handler = new OptionTwoCheng();
                 }
                 else if (choice == 3)
                 {
-                    handler = new OptionThreeKarim();
+                   // handler = new OptionThreeKarim();
                 }
+                handler.PlayGame();
 
+                /*
                 if (handler.PlayGame()) {
-                    continue;
-                }
+                      continue;
+                 }
 
-                break;               
-        }
+                break;
+                */
+            }
         }
     }
 }
