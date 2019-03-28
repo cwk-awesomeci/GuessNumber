@@ -23,17 +23,17 @@ namespace GuessNumber.Classes
             throw new NotImplementedException();
         }
 
+        public bool PlayAgain()
+        {
+            throw new NotImplementedException();
+        }
+
         public void PlayGame()
         {
             throw new NotImplementedException();
         }
 
         public int ReadInputNumber()
-        {
-            throw new NotImplementedException();
-        }
-
-        bool IOption.PlayGame()
         {
             throw new NotImplementedException();
         }
