@@ -23,6 +23,11 @@ namespace GuessNumber.Classes
             throw new NotImplementedException();
         }
 
+        public bool PlayAgain()
+        {
+            throw new NotImplementedException();
+        }
+
         public bool PlayGame()
         {
             return true;

@@ -23,7 +23,7 @@ namespace GuessNumber.Classes
             throw new NotImplementedException();
         }
 
-        public void PlayGame()
+        public bool PlayAgain()
         {
             throw new NotImplementedException();
         }
@@ -33,7 +33,7 @@ namespace GuessNumber.Classes
             throw new NotImplementedException();
         }
 
-        bool IOption.PlayGame()
+        public bool PlayGame()
         {
             throw new NotImplementedException();
         }
