@@ -46,8 +46,7 @@ namespace GuessNumber
                 {
                     handler = new OptionThreeKarim();
                 }
-                handler.PlayGame();
-                if (handler.PlayAgain()) {
+                if (handler.PlayGame()) {
                     continue;
                 }
 

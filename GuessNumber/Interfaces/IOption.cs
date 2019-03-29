@@ -15,7 +15,7 @@ namespace GuessNumber.Interfaces
         int CreateRandomNumber();
         int ReadInputNumber();
         int CompareNumber();
-        void PlayGame();
+        bool PlayGame();
         bool PlayAgain();
     }
 }

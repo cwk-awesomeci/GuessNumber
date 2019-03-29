@@ -95,7 +95,7 @@ namespace GuessNumber.Classes
         * @return: void
         * @description: main logic of the guess game
         */
-        public void PlayGame()
+        public Boolean PlayGame()
         {
             while (true)
             { 
@@ -104,14 +104,14 @@ namespace GuessNumber.Classes
                 {
                     Console.WriteLine("Sorry, you did not guess the right number. The correct number is " + Convert.ToString(randomNumber) );
                     clear();
-                    return;
+                    return PlayAgain();
                 }
                 ReadInputNumber();
                 CreateRandomNumber();
                 if (CompareNumber() == 0)
                 {
                     clear();
-                    return;
+                    return PlayAgain();
                 }
             }
         }
