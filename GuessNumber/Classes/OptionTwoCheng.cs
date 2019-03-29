@@ -55,7 +55,7 @@ namespace GuessNumber.Classes
             }
             else
             {
-                Console.WriteLine("your input should be in 1-10! please input again!");
+                Console.WriteLine("your input should be in 1-20! please input again!");
                 return 2;
             }
         }
