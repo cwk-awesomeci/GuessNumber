@@ -32,7 +32,7 @@ namespace GuessNumber.Classes
         {
             if (randomNumber > inputNumber)
             {
-                Console.WriteLine("Your input is less than the random number!");
+                Console.WriteLine("Your input is greater than the random number!");
                 return 1;
             }
             else if (randomNumber < inputNumber)
